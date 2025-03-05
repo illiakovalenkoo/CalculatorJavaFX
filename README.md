@@ -31,6 +31,7 @@ calculatorFX2/
 │── README.md                # Project documentation
 │── .gitignore               # Ignored files for Git
 │── pom.xml                  # Maven dependencies
+│── images/                  # UI and test screenshots
 ```
 
 ## ⚙️ Technologies Used
@@ -45,6 +46,9 @@ The application has been tested for:
 - **User input validation**
 - **Graphical interface responsiveness**
 - **Performance on different screen resolutions**
+
+### **📂 Test Folder (`images/`)**
+A test image has been added to the `images/` folder for UI verification.
 
 📸 *(Insert test screenshots here)*
 
