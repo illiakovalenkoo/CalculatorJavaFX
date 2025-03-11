@@ -37,6 +37,11 @@ To run this project, you need to have:
      ```sh
      java --module-path "your_full_path_to_javafx_sdk\lib" --add-modules javafx.controls,javafx.fxml -jar "your_full_path_to_project\target\calculatorFX2.jar"
      ```
+     For example, Windows and 23.0.2 SDK version:
+
+     ```sh
+     java --module-path "C:\Users\user\Downloads\openjfx-23.0.2_windows-x64_bin-sdk\javafx-sdk-23.0.2\lib" --add-modules javafx.controls,javafx.fxml -jar "C:\Users\user\IdeaProjects\calculatorFX2\src\calculatorFX2\out\artifacts\calculatorFX2_jar\calculatorFX2.jar"
+     ```
 
 ### **Linux**
 
@@ -66,7 +71,11 @@ To run this project, you need to have:
    ```sh
    java --module-path "your_full_path_to_javafx/lib" --add-modules javafx.controls,javafx.fxml -jar target/calculatorFX2.jar
    ```
+   For example, Windows and 23.0.2 SDK version: 
 
+   ```sh
+   java --module-path "C:\Users\user\Downloads\openjfx-23.0.2_windows-x64_bin-sdk\javafx-sdk-23.0.2\lib" --add-modules javafx.controls,javafx.fxml -jar "C:\Users\user\IdeaProjects\calculatorFX2\src\calculatorFX2\out\artifacts\calculatorFX2_jar\calculatorFX2.jar"
+   ```
 ## 2. Project Structure
 
 ```
@@ -94,8 +103,9 @@ The application has been tested for:
 
 ### `images/` Folder
 
-A test image has been added to the `images/` folder for UI verification.
+A test images have been added to the `images/` folder for UI verification.
 
 ## 5. License
 
-This project is distributed under the **MIT License**.
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software with no restrictions. The software is provided "as is", without warranty of any kind. Learn from it, modify it, and use it as needed.
+
