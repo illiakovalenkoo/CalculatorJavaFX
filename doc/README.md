@@ -63,7 +63,7 @@ To run this project, you need to have:
 3. **Run the application**:
 
    ```sh
-   java -jar target/calculatorFX2.jar
+   java -jar calculatorFX2.jar
    ```
 
    If JavaFX is missing, use:
