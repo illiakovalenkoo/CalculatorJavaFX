@@ -103,6 +103,8 @@ The application has been tested for:
 
 ### `images/` Folder
 
+img.png - Basic testing
+
 A test images have been added to the `images/` folder for UI verification.
 
 ## 5. License
